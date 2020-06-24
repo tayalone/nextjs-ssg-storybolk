@@ -1,4 +1,6 @@
 import React from 'react'
+import Head from '../components/head'
+import Nav from '../components/nav'
 
 export default function layout({ children, settings = {} }) {
   return (
